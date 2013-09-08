@@ -6,28 +6,25 @@ from os import environ as env
 from sys import argv
 
 import bottle
-from bottle import default_app, request, route, response, get
+from bottle import default_app, request, route, response, get, view, static_file
 
 bottle.debug(True)
 
-@get('/')
-def index():
-    response.content_type = 'text/plain; charset=utf-8'
-    ret =  'Hello world, I\'m %s!\n\n' % os.getpid()
-    ret += 'Request vars:\n'
-    for k, v in request.environ.iteritems():
-        if 'bottle.' in k:
-            continue
-        ret += '%s=%s\n' % (k, v)
+@route("/")
+@view("main_template")
+def main():
+    return {}
 
-    ret += '\n'
-    ret += 'Environment vars:\n'
+@get("/<filename:re:.*\.js>")
+def javascripts(filename):
+    return static_file(filename, root="static/javascripts")
 
-    for k, v in env.iteritems():
-        if 'bottle.' in k:
-            continue
-        ret += '%s=%s\n' % (k, v)
+@get("/<filename:re:.*\.png>")
+def images(filename):
+    return static_file(filename, root="static/images")
 
-    return ret
+@get("/<filename:re:.*\.css>")
+def stylesheets(filename):
+    return static_file(filename, root="static/stylesheets")
 
 bottle.run(host='0.0.0.0', port=argv[1])
