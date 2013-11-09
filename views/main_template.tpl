@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="main.css" />
 
-<h1> Varun Rau</h1>
+<h1>Varun Rau</h1>
 <div class="card-wrapper">
     <div class="description-card">
         Welcome! I am a third year computer science major studying at UC Berkeley. Sometime between graduating and retirement, I plan to travel, play golf, and solve people's problems with computer science. I love technology and how it is making our lives easier, better, and more fun. Interested? Check out some of my projects below or head on over to <a href="http://www.github.com/varunrau">my Github</a> and my <a href="https://www.dropbox.com/s/8adarpsb725sv9k/Resume.pdf">resume.</a>
