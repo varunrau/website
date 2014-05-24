@@ -3,7 +3,9 @@
 <h1>Varun Rau</h1>
 <div class="card-wrapper">
     <div class="description-card">
-        Hello! I am a third year computer science major studying at UC Berkeley. Sometime between graduating and retirement, I plan to travel, play golf, and solve people's problems with computer science. I love technology and how it is making our lives easier, better, and more fun. Interested? Check out some of my projects below or head on over to <a href="http://www.github.com/varunrau">my Github</a> and my <a href="https://www.dropbox.com/s/to5u9g0s15av2f8/Resume.pdf">resume.</a>
+        <p class="intro">
+            Hello! I am a third year computer science major studying at UC Berkeley. Sometime between graduating and retirement, I plan to travel, play golf, and solve people's problems with computer science. I love technology and how it is making our lives easier, better, and more fun. Interested? Check out some of my projects below or head on over to <a href="http://www.github.com/varunrau">my Github</a> and my <a href="https://www.dropbox.com/s/to5u9g0s15av2f8/Resume.pdf">resume.</a>
+        </p>
     </div>
     <div class="sub-header"> Projects </div>
     <div class="project-card">
