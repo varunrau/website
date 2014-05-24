@@ -56,11 +56,14 @@ a:visited {
 .project-card {
     border: 1px solid #efefef;
     margin: 0 auto;
-    width: 50%;
     position: center;
-    background: #384E50;
+    /* background: #384E50; */
 
-    opacity: 0.7;
+    font: 100 20px/20px 'Helvetica Neue', Helvetica, Arial;
+    letter-spacing: .5px;
+    line-height: 105%;
+
+    color: rgba(0,0,0,.5);
 
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
@@ -69,14 +72,8 @@ a:visited {
 
     padding: 10px;
 
-    font: 100 20px/20px 'Helvetica Neue', Helvetica, Arial;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 105%;
-
-    overflow: hidden;
-
-    margin-bottom: 20px;
+    overflow-y: scroll;
+    height: 350px
 }
 
 .project-image {
@@ -97,4 +94,8 @@ a:visited {
     padding-left: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.project-title {
+  text-align: center;
 }
