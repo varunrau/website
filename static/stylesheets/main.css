@@ -1,9 +1,8 @@
 body {
-    background: url(berkeley-background.png) top right no-repeat fixed;
+  background-color: #f1f1f1;
 }
 
 h1 {
-  color: white;
   font: 100 72px/72px 'Helvetica Neue', Helvetica, Arial;
   text-transform: uppercase;
   text-align: center;
@@ -90,7 +89,6 @@ a:visited {
 }
 
 .sub-header {
-    color: white;
     font: 100 36px/36px 'Helvetica Neue', Helvetica, Arial;
     text-transform: uppercase;
     padding-left: 25%;
