@@ -14,9 +14,12 @@
         </p>
     </div>
     <div class="sub-header"> Projects </div>
-
-
     <div class='owl-carousel'>
+        <div class="project-card">
+        <p class="project-title">BPSF Donation Portal</p>
+        <img class="project-image" src="bpsf.png"></img>
+        Our project with the Berkeley Public Schools Fund provides an avenue for a student’s friends and family to become involved with grant proposals created by teachers. As opposed to “crowdfunding”, our application is tailored to create personal connections between the users and the grants. Our web application is built using Ruby on Rails and a Gumby front-end framework. We use a PostgreSQL database to handle search easily, and Stripe to handle all the payments. The main challenge of creating this application was balancing the power and simplicity of this platform-- a wide range of audiences and multi-step processes are involved in bringing a grant's status from conception to donation-ready. Other features include data visualizations, grant filtering, image cropping, user profiles, video embedding, SSL/Captcha, draft grants, and more.
+        </div>
         <div class="project-card">
         <p class="project-title">Class Notes</p>
         <img class="project-image" src="classnotes.png"></img>
@@ -29,7 +32,7 @@
         </div>
         <div class="project-card">
         <p class="project-title">Smart Data Structures</p>
-        One of the perennial problems in Computer Science is choosing the right data structure. Some data structures are fast for certain operations but slow for others. Often choosing a good data structure for your needs is very difficult, and many times it is made even more difficult when you do not know what the particular needs of your data structure are until it is already out in the wild. Smart Data Structure is a python tool that solves this problem. At compile-time, it looks at your code and predicts what data structure is most appropriate, then at run-time it constantly reevaluates its decision. If it finds that another data structure is better, it will swap out the data structures in real time. Now students don't have to worry about remembering when to use a Red-Black Tree or a Heap because they can just use Smart Data Structure. Building this tool was really fun because I got to directly apply what I had learned in class to an application that I will use in the future. Plus it was great studying for the final!
+        One of the perennial challenges in Computer Science is choosing the right data structure. Some data structures are fast for certain operations but slow for others. Often choosing a good data structure for your needs is very difficult, and many times it is made even more difficult when you do not know what the particular needs of your data structure are until it is already out in the wild. Smart Data Structure is a python tool that solves this problem. At compile-time, it looks at your code and predicts what data structure is most appropriate, then at run-time it constantly reevaluates its decision. If it finds that another data structure is better, it will swap out the data structures in real time. Now students don't have to worry about remembering when to use a Red-Black Tree or a Heap because they can just use Smart Data Structure. Building this tool was really fun because I got to directly apply what I had learned in class to an application that I will use in the future. Plus it was great studying for the final!
         </div>
         <div class="project-card">
         <p class="project-title">Lifechain</p>
