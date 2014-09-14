@@ -19,7 +19,7 @@ def main():
 def javascripts(filename):
     return static_file(filename, root="static/javascripts")
 
-@get("/<filename:re:.*\.png>")
+@get("/<filename:re:.*\.(png|jpg)>")
 def images(filename):
     return static_file(filename, root="static/images")
 
