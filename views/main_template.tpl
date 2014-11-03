@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" href="main.css" />
  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
- <script src="owl.carousel.min.js"></script>
  <script src="main.js"></script>
 
 <h1>Varun Rau</h1>
