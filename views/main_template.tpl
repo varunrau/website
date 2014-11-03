@@ -1,7 +1,4 @@
 <link rel="stylesheet" type="text/css" href="main.css" />
-<!-- Owl Carousel -->
-<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
- <link rel="stylesheet" href="owl-carousel/owl.theme.css">
  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
  <script src="owl.carousel.min.js"></script>
  <script src="main.js"></script>
