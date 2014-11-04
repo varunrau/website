@@ -19,9 +19,13 @@ def main():
 def javascripts(filename):
     return static_file(filename, root="static/javascripts")
 
-@get("/<filename:re:.*\.(png|jpg)>")
+@get("/<filename:re:.*\.(png|jpg|svg)>")
 def images(filename):
     return static_file(filename, root="static/images")
+
+@get("/<filename:re:.*\.(ttf|woff)>")
+def fonts(filename):
+    return static_file(filename, root="static/fonts")
 
 @get("/<filename:re:.*\.css>")
 def stylesheets(filename):
