@@ -68,9 +68,9 @@
     <div class="content">
       <h1 class="white">Get in Touch! </h1>
       <p class="white thinner"> Feel free to contact me with any projects or opportunities at: </p>
-      <span id="email-link">varunrau@gmail.com</span>
+      <span id="email-link">varunrau&#64gmail.com</span>
       <br/>
-      <a id="mail-icon" class="icon" href="mailto:varunrau@gmail.com"></a>
+      <a id="mail-icon" class="icon" href="mailto:varunrau&#64gmail.com"></a>
     </div>
   </div>
 </body>
