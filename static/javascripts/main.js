@@ -1,12 +1,12 @@
+function scrollTo(element) {
+  $('html, body').animate({scrollTop: $(element).offset().top}, 1000);
+}
 
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel();
-});
-
-$('.owl-carousel').owlCarousel({
-  items: 3,
-  itemsDesktop: [1000,3],
-  itemsDesktopSmall: [900,3],
-  itemsTablet: [600,2],
-  itemsMobile: false
+$(document).ready(function() {
+  $('#home-icon').hover(function() {
+    $(this).removeClass('bounceIn');
+  });
+  $('.flexslider').flexslider({
+    animation: "slide",
+  });
 });
