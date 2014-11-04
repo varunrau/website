@@ -23,6 +23,7 @@
       <p>
         I like building things for humans. I'm studying Computer Science at University of California, Berkeley.
         I find great satisfaction in building software products that have a positive impact on the people that use them.
+        If you're interested, check out my <a href="https://www.dropbox.com/s/pmyyfkg4erfzkpv/ResumeWord.pdf?dl=0">resume</a>!
       </p>
       <div class="tooltip icon-wrapper" id="left-icon" name="Humans">
         <img class="icon" src="human.svg">
