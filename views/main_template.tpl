@@ -24,6 +24,12 @@
         I like building things for humans. I'm studying Computer Science at University of California, Berkeley.
         I find great satisfaction in building software products that have a positive impact on the people that use them.
       </p>
+      <div class="tooltip icon-wrapper" id="left-icon" name="Humans">
+        <img class="icon" src="human.svg">
+      </div>
+      <div class="tooltip icon-wrapper" id="left-icon" name="Code">
+        <img class="icon" src="terminal.svg">
+      </div>
     </div>
   </div>
   <div id="portfolio" class="container teal-bg">
@@ -36,10 +42,24 @@
     <div class="flexslider">
       <ul class="slides">
         <li>
-          <img class="small-img" src="varun.svg"/>
+          <a href="https://calciumulator.herokuapp.com/">
+            <img class="small-img" src="calciumulator.svg">
+          </a>
         </li>
         <li>
-          <img class="small-img" src="varun.svg"/>
+          <a href="https://schoolsfund-friendsandfamily.herokuapp.com/">
+            <img class="small-img" src="bpsf.svg"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/calblueprint/ff">
+            <img class="small-img" src="feeding-forward.svg"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/varunrau/classnotes">
+            <img class="small-img" src="classnotes.svg">
+          </a>
         </li>
       </ul>
     </div>
