@@ -13,7 +13,7 @@
     <div class="content">
       <img id="home-icon" class="icon animated bounceIn clickable" src="varun.svg" onclick="scrollTo('#about')"/>
       <h1 class="white"> Hey! <br!> I'm Varun. </h1>
-      <h2 class="white">I'm a computer scientist, coder, and programmer.</h2>
+      <h2 class="white">I'm a computer scientist, amateur ramen connoisseur, and human.</h2>
       <button id="work-button" onclick="scrollTo('#portfolio')">VIEW PORTFOLIO</button>
     </div>
   </div>
