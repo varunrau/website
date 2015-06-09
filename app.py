@@ -31,4 +31,8 @@ def fonts(filename):
 def stylesheets(filename):
     return static_file(filename, root="static/stylesheets")
 
+@get('/favicon.ico')
+def get_favicon():
+    return static_file('favicon.ico', root="static/images")
+
 bottle.run(host='0.0.0.0', port=argv[1])
