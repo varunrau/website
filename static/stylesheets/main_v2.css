@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  max-height: 150px;
+  padding: 10% 0 10% 0;
+}
+
+.about-para {
+  align-self: center;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+}

@@ -11,7 +11,7 @@ from bottle import default_app, request, route, response, get, view, static_file
 bottle.debug(True)
 
 @route("/")
-@view("main_template")
+@view("main_template_v2")
 def main():
     return {}
 
@@ -19,7 +19,7 @@ def main():
 def javascripts(filename):
     return static_file(filename, root="static/javascripts")
 
-@get("/<filename:re:.*\.(png|jpg|svg)>")
+@get("/<filename:re:.*\.(png|jpeg|jpg|svg)>")
 def images(filename):
     return static_file(filename, root="static/images")
 
