@@ -23,6 +23,10 @@ def javascripts(filename):
 def images(filename):
     return static_file(filename, root="static/images")
 
+@get("/<filename:re:.*\.(pdf)>")
+def pdfs(filename):
+    return static_file(filename, root="static/pdfs")
+
 @get("/<filename:re:.*\.(ttf|woff)>")
 def fonts(filename):
     return static_file(filename, root="static/fonts")
